@@ -1,0 +1,14 @@
+{
+  "extends": "eslint:recommended",
+  "parserOptions": {
+    "sourceType": "module",
+  },
+  "env": {
+    "es6": true,
+  },
+  "globals": {
+    "window": true,
+    "document": true,
+    "requestAnimationFrame": true,
+  }
+}
